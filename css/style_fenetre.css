@@ -1,9 +1,33 @@
+h1
+{
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+header
+{
+  font-style: italic;
+}
+
+nav{
+  float: right;
+}
+
+p{
+  position: absolute;
+  top:41px;
+  font-size: 0.9em;
+}
+
+/*------------------------
+    Classe Personnalisée
+------------------------*/
 .fenetre
 {
   width: 440px;
   height: auto;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .titre
@@ -12,7 +36,7 @@
 
 .corps
 {
-
+  text-align: justify;
 }
 
 .corps, .img_corps, .titre
@@ -29,4 +53,5 @@
 {
   width: 400px;
   margin: auto;
+  margin-top: 20px;
 }
