@@ -1,0 +1,32 @@
+.fenetre
+{
+  width: 440px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.titre
+{
+}
+
+.corps
+{
+
+}
+
+.corps, .img_corps, .titre
+{
+  padding: 10px;
+}
+
+.img_titre
+{
+
+}
+
+.img_corps
+{
+  width: 400px;
+  margin: auto;
+}
