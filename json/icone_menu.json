@@ -1,0 +1,22 @@
+{
+    "icones":
+    [
+        {
+            "src" : "./ressource/icone/visu.png",
+            "title" : "Visualisation de la galerie d'images",
+            "alt" : "Galerie"
+        },
+            
+        {
+            "src" : "./ressource/icone/favori.png",
+            "title" : "Favori",
+            "alt" : "Favori" 
+        },
+        
+        {
+            "src" : "./ressource/icone/close.png",
+            "title" : "Ne plus afficher cette fenetre",
+            "alt" : "Fermeture" 
+        }        
+    ]
+}
