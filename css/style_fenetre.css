@@ -14,8 +14,8 @@ nav{
 }
 
 p{
-  position: absolute;
-  top:41px;
+  position: relative;
+  top:-20px;
   font-size: 0.9em;
 }
 
