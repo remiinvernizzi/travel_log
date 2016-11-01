@@ -2,18 +2,28 @@
     "icones":
     [
         {
+            "nom" : "galerie",
             "src" : "./ressource/icone/visu.png",
             "title" : "Visualisation de la galerie d'images",
             "alt" : "Galerie"
         },
             
         {
+            "nom" : "favori",
             "src" : "./ressource/icone/favori.png",
             "title" : "Favori",
             "alt" : "Favori" 
         },
         
         {
+            "nom" : "noFavori",
+            "src" : "./ressource/icone/no_favori.png",
+            "title" : "Non Favori",
+            "alt" : "Non Favori" 
+        },
+        
+        {
+            "nom" : "fermer",
             "src" : "./ressource/icone/close.png",
             "title" : "Ne plus afficher cette fenetre",
             "alt" : "Fermeture" 
