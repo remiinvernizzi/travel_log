@@ -3,6 +3,7 @@
   [
     {
       "titre" : "Titre",
+      "date" : "dd-mm-yyyy",
       "favori" : true,
       "affichage" : true,
       "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra ante quis nunc finibus, consequat.",
