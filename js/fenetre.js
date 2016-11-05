@@ -1,11 +1,12 @@
 var Fenetre = {
-  init : function(titre, date, favori, texte, images){
+  init : function(fenetre){
     //Elements composant les fenetres
-    this.titre = titre; //Titre de la fenetre
-    this.date = date; //Date d'ajout
-    this.favori = favori; //Favori ou pas
-    this.texte = texte; //Texte de présentation
-    this.photos = images; //Tableau des photos associées à la fenetre
+    this.titre = fenetre.titre; //Titre de la fenetre
+    this.date = fenetre.date; //Date d'ajout
+    this.favori = fenetre.favori; //Favori ou pas
+    this.affichage = fenetre.affichage; //Affichage ou pas
+    this.texte = fenetre.text; //Texte de présentation
+    this.photos = fenetre.images[0]; //Tableau des photos associées à la fenetre
   },
 
   creer : function(){
@@ -54,6 +55,14 @@ var Fenetre = {
   },
 };
 
-var test = Object.create(Fenetre);
-test.init("Titre", "dd-mm-yyyy", true, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra ante quis nunc finibus, consequat.", "./ressource/img/imag_test.jpg");
-test.creer();
+//Récupération de la liste des fenêtres au chargement de la page
+ajaxGet("http://127.0.0.1/edsa-travel_log/json/list_fenetre.json", function(reponse){
+  listeFenetres = JSON.parse(reponse);
+  listeFenetres.forEach(function(fenetreJson){
+    var fenetre = Object.create(Fenetre);
+    fenetre.init(fenetreJson);
+    if(fenetre.affichage === true){
+      fenetre.creer();
+    }
+  });
+});
