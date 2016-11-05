@@ -24,7 +24,7 @@ p{
 ------------------------*/
 .fenetre
 {
-  width: 440px;
+  width: 390px;
   height: auto;
   border: 2px solid black;
   border-radius: 10px;
@@ -52,7 +52,7 @@ p{
 
 .img_corps
 {
-  width: 400px;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
 }
