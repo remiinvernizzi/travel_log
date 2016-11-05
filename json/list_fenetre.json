@@ -7,7 +7,7 @@
       "favori" : true,
       "affichage" : true,
       "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra ante quis nunc finibus, consequat.",
-      "images" : "./ressource/img/imag_test.jpg"
+      "images" : ["./ressource/img/imag_test.jpg"]
     }
   ]
 }
